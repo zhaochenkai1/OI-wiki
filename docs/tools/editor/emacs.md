@@ -1,4 +1,4 @@
-author: ouuan, akakw1, Ir1d, partychicken, Xeonacid
+author: ouuan, akakw1, Ir1d, partychicken, Xeonacid, zhaochenkai1
 
 本页面为 Emacs 的入门教程。
 
@@ -9,6 +9,40 @@ author: ouuan, akakw1, Ir1d, partychicken, Xeonacid
 Emacs 是一款非常容易上手的编辑器，只需要简短的几行配置就能使用，但是想要非常熟练地使用 Emacs 进行各项工作还是需要一定的时间。
 
 作为入门教程，这里仅介绍 Emacs 的基本功能，以及较方便地用 Emacs 编写、调试代码的方法。
+
+## 下载
+
+Emacs 的官方下载链接由GNU提供，连接是https://www.gnu.org/software/emacs/download.html
+
+### Windows
+
+Windows通常使用安装包方式安装，你可以从GNU[官方FTP服务器](https://ftp.gnu.org/gnu/emacs/windows/)或从[镜像站](https://mirrors.ustc.edu.cn/gnu/emacs/windows/)下载。
+
+### Linux
+
+官方建议安装从命令行安装Emacs，以下为安装Emacs的命令行指令：
+
+`guix package -i emacs`
+
+`sudo apt-get install emacs`
+
+`sudo pacman -S emacs`
+
+`sudo dnf install emacs`
+
+`sudo zypper install emacs`
+
+### BSD系统
+
+官方推荐从BSD储存库安装软件
+
+### Mac OS
+
+在Mac OS上安装Emacs建议使用命令行，以下为安装Emacs的命令行指令：
+
+`brew install --cask emacs`
+
+`sudo port install emacs-app`
 
 ## 入门
 
